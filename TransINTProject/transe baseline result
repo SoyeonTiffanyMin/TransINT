@@ -1,0 +1,322 @@
+symin95@nightingale:/data/scratch-oc40/symin95/thesis_kg_project/knowledge_representation_pytorch-master$ python transE_pytorch.py -d FB15k -l 0.001 -es 1000 -f 0  -norm_reg 0 -em 50 -lr_decay 1  -c 2 
+using GPU?  True
+/data/scratch-oc40/symin95/thesis_kg_project/knowledge_representation_pytorch-master/model.py:44: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(ent_weight) #don't do xavier but the ones in the TransE paper (root 6 whatever uniform and then normalize)
+/data/scratch-oc40/symin95/thesis_kg_project/knowledge_representation_pytorch-master/model.py:45: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(rel_weight)
+===========================================
+Epoch  0
+time elapsed:  8.7161865234375
+Train total loss: 489473.593750
+Validation batch loss: 4400.184570
+--------- validation for epoch0 ----------------------------
+Meanrank: 6208.836680
+Hit@10: 0.009315
+--------- validation for epoch5 ----------------------------
+Meanrank: 3111.932933
+Hit@10: 0.097495
+===========================================
+Epoch  10
+time elapsed:  110.13658261299133
+Train total loss: 77299.171875
+Validation batch loss: 1032.325439
+--------- validation for epoch10 ----------------------------
+Meanrank: 1250.054544
+Hit@10: 0.166529
+--------- validation for epoch15 ----------------------------
+Meanrank: 718.488926
+Hit@10: 0.207307
+===========================================
+Epoch  20
+time elapsed:  213.39891028404236
+Train total loss: 28227.703125
+Validation batch loss: 453.903503
+--------- validation for epoch20 ----------------------------
+Meanrank: 567.954771
+Hit@10: 0.239702
+--------- validation for epoch25 ----------------------------
+Meanrank: 424.635790
+Hit@10: 0.265783
+===========================================
+Epoch  30
+time elapsed:  309.11629986763
+Train total loss: 19433.791016
+Validation batch loss: 302.226440
+--------- validation for epoch30 ----------------------------
+Meanrank: 409.086421
+Hit@10: 0.280377
+--------- validation for epoch35 ----------------------------
+Meanrank: 366.983544
+Hit@10: 0.294452
+===========================================
+Epoch  40
+time elapsed:  407.13044571876526
+Train total loss: 16485.390625
+Validation batch loss: 293.923492
+--------- validation for epoch40 ----------------------------
+Meanrank: 322.682571
+Hit@10: 0.304181
+--------- validation for epoch45 ----------------------------
+Meanrank: 302.256779
+Hit@10: 0.312772
+===========================================
+Epoch  50
+time elapsed:  509.1042277812958
+Train total loss: 14572.620117
+Validation batch loss: 260.058319
+--------- validation for epoch50 ----------------------------
+Meanrank: 291.568826
+Hit@10: 0.318568
+--------- validation for epoch55 ----------------------------
+Meanrank: 273.315256
+Hit@10: 0.331091
+===========================================
+Epoch  60
+time elapsed:  608.7725687026978
+Train total loss: 13508.009766
+Validation batch loss: 257.715698
+--------- validation for epoch60 ----------------------------
+Meanrank: 274.079694
+Hit@10: 0.337301
+--------- validation for epoch65 ----------------------------
+Meanrank: 270.629890
+Hit@10: 0.345788
+===========================================
+Epoch  70
+time elapsed:  711.8422451019287
+Train total loss: 12528.086914
+Validation batch loss: 213.680725
+--------- validation for epoch70 ----------------------------
+Meanrank: 260.091389
+Hit@10: 0.345581
+--------- validation for epoch75 ----------------------------
+Meanrank: 269.328400
+Hit@10: 0.342165
+===========================================
+Epoch  80
+time elapsed:  809.8580634593964
+Train total loss: 12072.521484
+Validation batch loss: 226.173386
+--------- validation for epoch80 ----------------------------
+Meanrank: 243.739805
+Hit@10: 0.358414
+--------- validation for epoch85 ----------------------------
+Meanrank: 250.318050
+Hit@10: 0.355723
+===========================================
+Epoch  90
+time elapsed:  908.3906347751617
+Train total loss: 11545.020508
+Validation batch loss: 188.304352
+--------- validation for epoch90 ----------------------------
+Meanrank: 238.615297
+Hit@10: 0.365038
+--------- validation for epoch95 ----------------------------
+Meanrank: 243.505899
+Hit@10: 0.363900
+===========================================
+Epoch  100
+time elapsed:  1005.9814512729645
+Train total loss: 11101.969727
+Validation batch loss: 205.859985
+--------- validation for epoch100 ----------------------------
+Meanrank: 222.625543
+Hit@10: 0.365245
+--------- validation for epoch105 ----------------------------
+Meanrank: 221.971227
+Hit@10: 0.362761
+===========================================
+Epoch  110
+time elapsed:  1106.5419127941132
+Train total loss: 10734.888672
+Validation batch loss: 183.437347
+--------- validation for epoch110 ----------------------------
+Meanrank: 229.095011
+Hit@10: 0.368350
+--------- validation for epoch115 ----------------------------
+Meanrank: 223.149969
+Hit@10: 0.372490
+===========================================
+Epoch  120
+time elapsed:  1199.6417841911316
+Train total loss: 10475.474609
+Validation batch loss: 184.400009
+--------- validation for epoch120 ----------------------------
+Meanrank: 229.133202
+Hit@10: 0.367833
+--------- validation for epoch125 ----------------------------
+Meanrank: 235.816601
+Hit@10: 0.365245
+===========================================
+Epoch  130
+time elapsed:  1296.5448570251465
+Train total loss: 10407.280273
+Validation batch loss: 172.252228
+--------- validation for epoch130 ----------------------------
+Meanrank: 232.068516
+Hit@10: 0.375078
+--------- validation for epoch135 ----------------------------
+Meanrank: 233.702753
+Hit@10: 0.373215
+===========================================
+Epoch  140
+time elapsed:  1393.0908153057098
+Train total loss: 10086.211914
+Validation batch loss: 186.634247
+--------- validation for epoch140 ----------------------------
+Meanrank: 217.020596
+Hit@10: 0.369696
+--------- validation for epoch145 ----------------------------
+Meanrank: 230.326537
+Hit@10: 0.373215
+===========================================
+Epoch  150
+time elapsed:  1494.4827914237976
+Train total loss: 9711.064453
+Validation batch loss: 165.642944
+--------- validation for epoch150 ----------------------------
+Meanrank: 216.294245
+Hit@10: 0.379425
+--------- validation for epoch155 ----------------------------
+Meanrank: 234.936970
+Hit@10: 0.368350
+===========================================
+Epoch  160
+time elapsed:  1593.9225449562073
+Train total loss: 9606.525391
+Validation batch loss: 188.814087
+--------- validation for epoch160 ----------------------------
+Meanrank: 229.495032
+Hit@10: 0.368868
+--------- validation for epoch165 ----------------------------
+Meanrank: 223.386359
+Hit@10: 0.374974
+===========================================
+Epoch  170
+time elapsed:  1690.9529173374176
+Train total loss: 9709.624023
+Validation batch loss: 192.732224
+--------- validation for epoch170 ----------------------------
+Meanrank: 225.313703
+Hit@10: 0.376941
+--------- validation for epoch175 ----------------------------
+Meanrank: 225.671497
+Hit@10: 0.371248
+===========================================
+Epoch  180
+time elapsed:  1788.1398401260376
+Train total loss: 9762.875000
+Validation batch loss: 181.302429
+--------- validation for epoch180 ----------------------------
+Meanrank: 240.279549
+Hit@10: 0.378597
+--------- validation for epoch185 ----------------------------
+Meanrank: 239.309667
+Hit@10: 0.372180
+===========================================
+Epoch  190
+time elapsed:  1887.947037935257
+Train total loss: 9509.640625
+Validation batch loss: 189.802414
+--------- validation for epoch190 ----------------------------
+Meanrank: 229.045229
+Hit@10: 0.376320
+--------- validation for epoch195 ----------------------------
+Meanrank: 232.216518
+Hit@10: 0.373111
+===========================================
+Epoch  200
+time elapsed:  1985.2555532455444
+Train total loss: 9219.955078
+Validation batch loss: 193.002396
+--------- validation for epoch200 ----------------------------
+Meanrank: 241.316705
+Hit@10: 0.369075
+--------- validation for epoch205 ----------------------------
+Meanrank: 229.002173
+Hit@10: 0.374664
+===========================================
+Epoch  210
+time elapsed:  2078.6915714740753
+Train total loss: 9225.179688
+Validation batch loss: 199.477020
+--------- validation for epoch210 ----------------------------
+Meanrank: 237.191679
+Hit@10: 0.379632
+--------- validation for epoch215 ----------------------------
+Meanrank: 224.039743
+Hit@10: 0.380356
+===========================================
+Epoch  220
+time elapsed:  2171.238481760025
+Train total loss: 9188.389648
+Validation batch loss: 175.797729
+--------- validation for epoch220 ----------------------------
+Meanrank: 235.006727
+Hit@10: 0.378597
+--------- validation for epoch225 ----------------------------
+Meanrank: 233.608880
+Hit@10: 0.379425
+===========================================
+Epoch  230
+time elapsed:  2269.964524745941
+Train total loss: 9083.810547
+Validation batch loss: 176.854370
+--------- validation for epoch230 ----------------------------
+Meanrank: 232.968847
+Hit@10: 0.373318
+--------- validation for epoch235 ----------------------------
+Meanrank: 223.697475
+Hit@10: 0.382426
+===========================================
+Epoch  240
+time elapsed:  2370.8490755558014
+Train total loss: 9100.449219
+Validation batch loss: 157.799377
+--------- validation for epoch240 ----------------------------
+Meanrank: 232.219313
+Hit@10: 0.367315
+--------- validation for epoch245 ----------------------------
+Meanrank: 251.768578
+Hit@10: 0.360795
+===========================================
+Epoch  250
+time elapsed:  2471.161583185196
+Train total loss: 8972.344727
+Validation batch loss: 172.037872
+--------- validation for epoch250 ----------------------------
+Meanrank: 238.889671
+Hit@10: 0.367419
+--------- validation for epoch255 ----------------------------
+Meanrank: 244.727179
+Hit@10: 0.359346
+===========================================
+Epoch  260
+time elapsed:  2568.925729751587
+Train total loss: 8713.165039
+Validation batch loss: 149.070007
+--------- validation for epoch260 ----------------------------
+Meanrank: 222.938419
+Hit@10: 0.366073
+--------- validation for epoch265 ----------------------------
+Meanrank: 246.693749
+Hit@10: 0.371352
+===========================================
+Epoch  270
+time elapsed:  2663.8818747997284
+Train total loss: 8736.656250
+Validation batch loss: 177.983734
+--------- validation for epoch270 ----------------------------
+Meanrank: 241.657421
+Hit@10: 0.371766
+--------- validation for epoch275 ----------------------------
+Meanrank: 235.214138
+Hit@10: 0.363900
+===========================================
+Epoch  280
+time elapsed:  2761.827148914337
+Train total loss: 8569.788086
+Validation batch loss: 173.441086
+--------- validation for epoch280 ----------------------------
+Meanrank: 239.361105
+Hit@10: 0.362244
