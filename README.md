@@ -1,5 +1,6 @@
 # TransINT
-Repository for AKBC 2020 Publication "TransINT: Embedding Implication Rules in Knowledge Graphs with Isomorphic Intersections of Linear Subspaces"
+Repository for AKBC 2020 Publication "TransINT: Embedding Implication Rules in Knowledge Graphs with Isomorphic Intersections of Linear Subspaces".
+
 Link to paper: https://openreview.net/forum?id=shkmWLRBXH
 
 The codes in this repository was built upon the codes of https://github.com/jimmywangheng/knowledge_representation_pytorch. While codes for the contents of the TransINT paper were originally written, the fundamental codes for knowledge graph embeddings (e.g. TransH) were taken directly from the repository above.
