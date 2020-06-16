@@ -1,37 +1,8 @@
 # TransINT
-Repository for ICLR 2020 Submission "TransINT: Embedding Implication Rules in Knowledge Graphs with Isomorphic Intersections of Linear Subspaces"
+Repository for AKBC 2020 Publication "TransINT: Embedding Implication Rules in Knowledge Graphs with Isomorphic Intersections of Linear Subspaces"
 
 ## Prerequisites 
 Please install Python 3.6 and Pytorch
-
-## Model Performances for the NELL Location/ Sports Dataset
-We ran additional experiments on NELL Location / Sports Dataset (created by \[1\]). This dataset consists of the following rules: 
-![Nell Rules](TransINTProject/images/Nell_rules.png)
-(Taken from \[2\]'s Table 3.)
-
-We compared results of TransINT$$^G$$ and TransINT$$^{NG}$$ with \[2\]. 
-![Nell Table](TransINTProject/images/NELL_table.png)
-(Rows except for TransINT$$^G$$ and TransINT$$^{NG}$$ directly copied from \[2\].)
-
-TransINT$$^G$$ and TransINT$$^{NG}$$ both outperform \[2\] on all metrics and settings (especially the first with a significant gap). 
-
-\[1\]: Wang, Quan, Bin Wang, and Li Guo. "Knowledge base completion using embeddings and rules." Twenty-Fourth International Joint Conference on Artificial Intelligence. 2015.
-
-\[2\]: Fatemi, Bahare, Siamak Ravanbakhsh, and David Poole. "Improved knowledge graph embedding using background taxonomic information." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 33. 2019.
-
-<!---## How to assign ranks to "Skip Edges"
-The rules in Nell Sports dataset are bind by the following implication rules: 
-
-![Nell Table](TransINTProject/images/Skip_edge.png)
-(Arrows are from a more specific relation to a more general (implied) relation;
-Rank is the rank of the $$H_r$$ for each relation $$r$$ (total dimension is $$d$$)).
-
-In this case, "CoachesTeam" can be considered as the same level as "AthletePlaysForTeam" or "AthleteLedSportsTeam"; in other words, should "CoachesTeam" be assigned rank? 
-
-We expreimented with assigning "CoachesTeam" respectively the rank of "AthletePlaysForTeam" and "AthleteLedSportsTeam", and obtained the following results:
-
-Not significant, but . 
-Thus, it is advised to use ranks . -->
 
 ## How to Replicate Results
 
