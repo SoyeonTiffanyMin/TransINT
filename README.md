@@ -1,5 +1,8 @@
 # TransINT
 Repository for AKBC 2020 Publication "TransINT: Embedding Implication Rules in Knowledge Graphs with Isomorphic Intersections of Linear Subspaces"
+Link to paper: https://openreview.net/forum?id=shkmWLRBXH
+
+The codes in this repository was built upon the codes of https://github.com/jimmywangheng/knowledge_representation_pytorch. While codes for the contents of the TransINT paper were originally written, the fundamental codes for knowledge graph embeddings (e.g. TransH) were taken directly from the repository above.
 
 ## Prerequisites 
 Please install Python 3.6 and Pytorch
@@ -59,7 +62,16 @@ python transINT_Bernoulli_pytorch.py  -l 0.001 -es 1000 -f 1 -n 1000 -em 50 -lr_
 ```
 (Optimal Configuration was - learning rate: 0.001, number of dimensions (d): 50, margin: 5, learning rate decay: 0.925, no normalization on entity vectors, relation vectors, and relation subspace bases, L1 (among L1 and L2 norms in calculating distances))
 
+### How to Cite
 
+@inproceedings{
+min2020transint,
+title={Trans{\{}INT{\}}: Embedding Implication Rules in Knowledge Graphs with Isomorphic Intersections of Linear Subspaces},
+author={So Yeon Min and Preethi Raghavan and Peter Szolovits},
+booktitle={Automated Knowledge Base Construction},
+year={2020},
+url={https://openreview.net/forum?id=shkmWLRBXH}
+}
 
 <script type="text/javascript" async
 
